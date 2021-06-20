@@ -153,6 +153,7 @@ nav {
 
 /* planos e preços */
 
+/* Container do plano e preço */
 .pricing-container {
     padding: 5em;
     text-align: center;
@@ -184,6 +185,8 @@ nav {
     margin-right: 20px;
 }
 
+/* Lista de planos e preços */
+
 .plan ul {
     padding: 0; 
 }
@@ -194,6 +197,8 @@ nav {
     background-color: #e8e9ea;
     color: #333;
 }
+
+/* Background dos planos e preços */
 
 .plan .price {
     width: 120px;
@@ -208,4 +213,29 @@ nav {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -50px;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Botão e recomendado planos e preços */
+
+.plan .plan-btn {
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 24px;
+    height:  75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommended {
+    background-color: #FF9466;
 }
